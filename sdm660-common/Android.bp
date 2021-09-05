@@ -10,6 +10,9 @@ android_app_import {
 	owner: "xiaomi",
 	apk: "proprietary/system_ext/app/QtiTelephonyService/QtiTelephonyService.apk",
 	certificate: "platform",
+	// Disable dexpreopt and verify_uses_libraries check as the app,
+	// contains no Java code to be dexpreopted.
+	enforce_uses_libs: false,
 	dex_preopt: {
 		enabled: false,
 	},
@@ -21,6 +24,9 @@ android_app_import {
 	owner: "xiaomi",
 	apk: "proprietary/system_ext/app/datastatusnotification/datastatusnotification.apk",
 	certificate: "platform",
+	// Disable dexpreopt and verify_uses_libraries check as the app,
+	// contains no Java code to be dexpreopted.
+	enforce_uses_libs: false,
 	dex_preopt: {
 		enabled: false,
 	},
@@ -32,6 +38,9 @@ android_app_import {
 	owner: "xiaomi",
 	apk: "proprietary/system_ext/app/imssettings/imssettings.apk",
 	certificate: "platform",
+	// Disable dexpreopt and verify_uses_libraries check as the app,
+	// contains no Java code to be dexpreopted.
+	enforce_uses_libs: false,
 	dex_preopt: {
 		enabled: false,
 	},
@@ -43,6 +52,9 @@ android_app_import {
 	owner: "xiaomi",
 	apk: "proprietary/system_ext/app/uceShimService/uceShimService.apk",
 	certificate: "platform",
+	// Disable dexpreopt and verify_uses_libraries check as the app,
+	// contains no Java code to be dexpreopted.
+	enforce_uses_libs: false,
 	dex_preopt: {
 		enabled: false,
 	},
@@ -54,6 +66,9 @@ android_app_import {
 	owner: "xiaomi",
 	apk: "proprietary/system_ext/priv-app/dpmserviceapp/dpmserviceapp.apk",
 	certificate: "platform",
+	// Disable dexpreopt and verify_uses_libraries check as the app,
+	// contains no Java code to be dexpreopted.
+	enforce_uses_libs: false,
 	dex_preopt: {
 		enabled: false,
 	},
@@ -66,6 +81,9 @@ android_app_import {
 	owner: "xiaomi",
 	apk: "proprietary/system_ext/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk",
 	certificate: "platform",
+	// Disable dexpreopt and verify_uses_libraries check as the app,
+	// contains no Java code to be dexpreopted.
+	enforce_uses_libs: false,
 	dex_preopt: {
 		enabled: false,
 	},
@@ -78,6 +96,9 @@ android_app_import {
 	owner: "xiaomi",
 	apk: "proprietary/system_ext/priv-app/ims/ims.apk",
 	certificate: "platform",
+	// Disable dexpreopt and verify_uses_libraries check as the app,
+	// contains no Java code to be dexpreopted.
+	enforce_uses_libs: false,
 	dex_preopt: {
 		enabled: false,
 	},
@@ -90,6 +111,9 @@ android_app_import {
 	owner: "xiaomi",
 	apk: "proprietary/vendor/app/CneApp/CneApp.apk",
 	certificate: "platform",
+	// Disable dexpreopt and verify_uses_libraries check as the app,
+	// contains no Java code to be dexpreopted.
+	enforce_uses_libs: false,
 	dex_preopt: {
 		enabled: false,
 	},
@@ -101,6 +125,9 @@ android_app_import {
 	owner: "xiaomi",
 	apk: "proprietary/vendor/app/IWlanService/IWlanService.apk",
 	certificate: "platform",
+	// Disable dexpreopt and verify_uses_libraries check as the app,
+	// contains no Java code to be dexpreopted.
+	enforce_uses_libs: false,
 	dex_preopt: {
 		enabled: false,
 	},
@@ -112,6 +139,9 @@ android_app_import {
 	owner: "xiaomi",
 	apk: "proprietary/vendor/app/TimeService/TimeService.apk",
 	certificate: "platform",
+	// Disable dexpreopt and verify_uses_libraries check as the app,
+	// contains no Java code to be dexpreopted.
+	enforce_uses_libs: false,
 	dex_preopt: {
 		enabled: false,
 	},
@@ -123,6 +153,9 @@ android_app_import {
 	owner: "xiaomi",
 	apk: "proprietary/product/app/PowerOffAlarm/PowerOffAlarm.apk",
 	certificate: "platform",
+	// Disable dexpreopt and verify_uses_libraries check as the app,
+	// contains no Java code to be dexpreopted.
+	enforce_uses_libs: false,
 	dex_preopt: {
 		enabled: false,
 	},
