@@ -74,6 +74,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/whyred/proprietary/vendor/firmware/voice_amodel.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/voice_amodel.bin \
     vendor/xiaomi/whyred/proprietary/vendor/lib/hw/camera.sdm660.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/camera.sdm660.so \
     vendor/xiaomi/whyred/proprietary/vendor/lib/libMiWatermark.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMiWatermark.so \
+    vendor/xiaomi/whyred/proprietary/vendor/lib/libSonyIMX376C3RmscLibrary.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSonyIMX376C3RmscLibrary.so \
+    vendor/xiaomi/whyred/proprietary/vendor/lib/libSonyIMX376KRmscLibrary.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSonyIMX376KRmscLibrary.so \
     vendor/xiaomi/whyred/proprietary/vendor/lib/libXMFD_AgeGender.so:$(TARGET_COPY_OUT_VENDOR)/lib/libXMFD_AgeGender.so \
     vendor/xiaomi/whyred/proprietary/vendor/lib/lib_lowlight.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_lowlight.so \
     vendor/xiaomi/whyred/proprietary/vendor/lib/libactuator_whyred_imx486_ofilm_global_i_dw9714v.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_whyred_imx486_ofilm_global_i_dw9714v.so \
